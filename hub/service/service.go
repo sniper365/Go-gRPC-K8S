@@ -1,10 +1,10 @@
 package service
 
 import (
-	"github.com/while-loop/levit/common/log"
-	"github.com/while-loop/levit/hub"
-	"github.com/while-loop/levit/hub/proto"
-	"github.com/while-loop/levit/hub/stream"
+	"github.com/sniper365/Go-gRPC-K8S/common/log"
+	"github.com/sniper365/Go-gRPC-K8S/hub"
+	"github.com/sniper365/Go-gRPC-K8S/hub/proto"
+	"github.com/sniper365/Go-gRPC-K8S/hub/stream"
 	"google.golang.org/grpc/peer"
 )
 

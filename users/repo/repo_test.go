@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
+	pb "github.com/sniper365/Go-gRPC-K8S/users/proto"
 	"github.com/stretchr/testify/require"
-	pb "github.com/while-loop/levit/users/proto"
 )
 
 func testImpl(t *testing.T, r UsersRepository) {

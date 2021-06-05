@@ -5,13 +5,13 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/while-loop/levit/common/log"
-	libservice "github.com/while-loop/levit/common/service"
-	"github.com/while-loop/levit/hub"
-	"github.com/while-loop/levit/hub/event"
-	"github.com/while-loop/levit/hub/proto"
-	"github.com/while-loop/levit/hub/service"
-	"github.com/while-loop/levit/hub/version"
+	"github.com/sniper365/Go-gRPC-K8S/common/log"
+	libservice "github.com/sniper365/Go-gRPC-K8S/common/service"
+	"github.com/sniper365/Go-gRPC-K8S/hub"
+	"github.com/sniper365/Go-gRPC-K8S/hub/event"
+	"github.com/sniper365/Go-gRPC-K8S/hub/proto"
+	"github.com/sniper365/Go-gRPC-K8S/hub/service"
+	"github.com/sniper365/Go-gRPC-K8S/hub/version"
 )
 
 func init() {

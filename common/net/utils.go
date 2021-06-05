@@ -3,7 +3,7 @@ package net
 import (
 	"net"
 
-	"github.com/while-loop/levit/common/log"
+	"github.com/sniper365/Go-gRPC-K8S/common/log"
 )
 
 func GetIP() string {

@@ -3,7 +3,7 @@ package repo
 import (
 	"fmt"
 
-	proto "github.com/while-loop/levit/users/proto"
+	proto "github.com/sniper365/Go-gRPC-K8S/users/proto"
 )
 
 type mockRepo struct {

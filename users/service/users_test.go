@@ -7,9 +7,9 @@ import (
 
 	"context"
 
+	proto "github.com/sniper365/Go-gRPC-K8S/users/proto"
+	"github.com/sniper365/Go-gRPC-K8S/users/repo"
 	"github.com/stretchr/testify/require"
-	proto "github.com/while-loop/levit/users/proto"
-	"github.com/while-loop/levit/users/repo"
 )
 
 var c = context.Background()

@@ -9,7 +9,7 @@ import (
 
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/jinzhu/gorm"
-	"github.com/while-loop/levit/common/test"
+	"github.com/sniper365/Go-gRPC-K8S/common/test"
 	"gopkg.in/ory-am/dockertest.v3"
 )
 

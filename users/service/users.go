@@ -1,8 +1,8 @@
 package service
 
 import (
-	pb "github.com/while-loop/levit/users/proto"
-	"github.com/while-loop/levit/users/repo"
+	pb "github.com/sniper365/Go-gRPC-K8S/users/proto"
+	"github.com/sniper365/Go-gRPC-K8S/users/repo"
 	"golang.org/x/net/context"
 )
 

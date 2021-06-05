@@ -4,8 +4,8 @@ ENV PATH=${PATH}:${GOPATH}/bin
 
 RUN apk add --update --no-cache git make
 
-RUN go get github.com/while-loop/levit/hub/...
-WORKDIR ${GOPATH}/src/github.com/while-loop/levit/hub
+RUN go get github.com/sniper365/Go-gRPC-K8S/hub/...
+WORKDIR ${GOPATH}/src/github.com/sniper365/Go-gRPC-K8S/hub
 RUN make all
 
 FROM alpine:latest

@@ -7,12 +7,12 @@ import (
 
 	"os"
 
-	"github.com/while-loop/levit/common/log"
-	libservice "github.com/while-loop/levit/common/service"
-	proto "github.com/while-loop/levit/users/proto"
-	"github.com/while-loop/levit/users/repo"
-	"github.com/while-loop/levit/users/service"
-	"github.com/while-loop/levit/users/version"
+	"github.com/sniper365/Go-gRPC-K8S/common/log"
+	libservice "github.com/sniper365/Go-gRPC-K8S/common/service"
+	proto "github.com/sniper365/Go-gRPC-K8S/users/proto"
+	"github.com/sniper365/Go-gRPC-K8S/users/repo"
+	"github.com/sniper365/Go-gRPC-K8S/users/service"
+	"github.com/sniper365/Go-gRPC-K8S/users/version"
 )
 
 func init() {

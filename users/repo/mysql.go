@@ -3,7 +3,7 @@ package repo
 import (
 	"github.com/jinzhu/gorm"
 	"github.com/pkg/errors"
-	pb "github.com/while-loop/levit/users/proto"
+	pb "github.com/sniper365/Go-gRPC-K8S/users/proto"
 )
 
 const (

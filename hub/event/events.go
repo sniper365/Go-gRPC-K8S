@@ -3,7 +3,7 @@ package event
 import (
 	"reflect"
 
-	"github.com/while-loop/levit/hub"
+	"github.com/sniper365/Go-gRPC-K8S/hub"
 )
 
 var handler = hub.Handler{}

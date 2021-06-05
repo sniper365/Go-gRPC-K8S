@@ -2,7 +2,7 @@ package service
 
 import (
 	jwt "github.com/dgrijalva/jwt-go"
-	pb "github.com/while-loop/levit/users/proto"
+	pb "github.com/sniper365/Go-gRPC-K8S/users/proto"
 )
 
 type TokenService struct {

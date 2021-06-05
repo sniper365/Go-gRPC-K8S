@@ -5,8 +5,8 @@ import (
 
 	"time"
 
+	"github.com/sniper365/Go-gRPC-K8S/hub/proto"
 	"github.com/stretchr/testify/require"
-	"github.com/while-loop/levit/hub/proto"
 )
 
 func TestMockSend(t *testing.T) {
