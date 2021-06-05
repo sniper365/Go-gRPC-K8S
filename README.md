@@ -1,7 +1,5 @@
 Go-gRPC-K8S
 
-=====
-
 Social media platform created in Go.
 
 Dependencies (dev)
