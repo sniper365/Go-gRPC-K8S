@@ -1,15 +1,15 @@
 package hub
 
 import (
-	"github.com/while-loop/levit/hub/proto"
+	"github.com/sniper365/Go-gRPC-K8S/hub/proto"
 
 	"math/rand"
 	"time"
 
 	"reflect"
 
-	"github.com/while-loop/levit/common/log"
-	"github.com/while-loop/levit/hub/stream"
+	"github.com/sniper365/Go-gRPC-K8S/common/log"
+	"github.com/sniper365/Go-gRPC-K8S/hub/stream"
 )
 
 var (

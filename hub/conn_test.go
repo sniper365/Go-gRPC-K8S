@@ -6,10 +6,10 @@ import (
 	"time"
 
 	"github.com/fortytw2/leaktest"
+	"github.com/sniper365/Go-gRPC-K8S/common/test"
+	"github.com/sniper365/Go-gRPC-K8S/hub/proto"
+	"github.com/sniper365/Go-gRPC-K8S/hub/stream"
 	"github.com/stretchr/testify/require"
-	"github.com/while-loop/levit/common/test"
-	"github.com/while-loop/levit/hub/proto"
-	"github.com/while-loop/levit/hub/stream"
 )
 
 func TestCloseStopsLoops(t *testing.T) {

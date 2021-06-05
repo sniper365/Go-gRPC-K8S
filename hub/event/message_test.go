@@ -6,11 +6,11 @@ import (
 
 	"time"
 
+	"github.com/sniper365/Go-gRPC-K8S/common/test"
+	"github.com/sniper365/Go-gRPC-K8S/hub"
+	"github.com/sniper365/Go-gRPC-K8S/hub/proto"
+	"github.com/sniper365/Go-gRPC-K8S/hub/stream"
 	"github.com/stretchr/testify/assert"
-	"github.com/while-loop/levit/common/test"
-	"github.com/while-loop/levit/hub"
-	"github.com/while-loop/levit/hub/proto"
-	"github.com/while-loop/levit/hub/stream"
 )
 
 func TestMessage(t *testing.T) {

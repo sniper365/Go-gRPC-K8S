@@ -3,7 +3,7 @@ package stream
 import (
 	"io"
 
-	"github.com/while-loop/levit/hub/proto"
+	"github.com/sniper365/Go-gRPC-K8S/hub/proto"
 )
 
 type Stream interface {

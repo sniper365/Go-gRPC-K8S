@@ -3,7 +3,7 @@ package hub
 import (
 	"reflect"
 
-	"github.com/while-loop/levit/hub/proto"
+	"github.com/sniper365/Go-gRPC-K8S/hub/proto"
 )
 
 type EventFunc func(conn *Conn, message *proto.HubMessage)

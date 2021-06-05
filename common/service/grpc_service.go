@@ -7,7 +7,7 @@ import (
 
 	"github.com/grpc-ecosystem/go-grpc-prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	"github.com/while-loop/levit/common/log"
+	"github.com/sniper365/Go-gRPC-K8S/common/log"
 	"google.golang.org/grpc"
 )
 

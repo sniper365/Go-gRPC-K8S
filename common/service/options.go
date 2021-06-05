@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/google/uuid"
-	levnet "github.com/while-loop/levit/common/net"
+	levnet "github.com/sniper365/Go-gRPC-K8S/common/net"
 )
 
 type Options struct {

@@ -1,6 +1,6 @@
 package repo
 
-import "github.com/while-loop/levit/users/proto"
+import "github.com/sniper365/Go-gRPC-K8S/users/proto"
 
 type UsersRepository interface {
 	Create(u *users.User) (*users.User, error)

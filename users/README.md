@@ -18,7 +18,7 @@ Installation
 Note: assuming `$GOPATH/bin` is in your `PATH` env variable.
 
 ```bash
-$ go get -u github.com/while-loop/levit/users/cmd/...
+$ go get -u github.com/sniper365/Go-gRPC-K8S/users/cmd/...
 $ usersd
 ```
 

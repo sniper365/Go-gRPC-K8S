@@ -1,6 +1,6 @@
 package stream
 
-import "github.com/while-loop/levit/hub/proto"
+import "github.com/sniper365/Go-gRPC-K8S/hub/proto"
 
 type grpcStream struct {
 	proto.Hub_ConnectServer
